@@ -1,0 +1,306 @@
+
+Task 3
+
+*** Booking - ACCEPT / FCFS ***
+
+Member_A has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+2025-05-12      11:00   19:00   Event           locker  umbrella
+2025-05-13      04:00   08:00   Reservation     battery cable
+2025-05-16      22:00   25:00   Parking
+
+Member_B has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+2025-05-13      05:00   07:00   Parking
+
+Member_C has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+2025-05-10      10:00   17:00   Parking
+2025-05-11      18:00   27:00   Parking
+2025-05-13      07:00   13:00   Reservation     battery cable
+2025-05-15      17:00   24:00   Reservation     locker  umbrella
+
+Member_D has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+2025-05-10      20:00   27:00   Event           locker  umbrella
+2025-05-11      07:00   16:00   Reservation     battery cable
+2025-05-16      19:00   24:00   Reservation     battery cable
+
+Member_E has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+2025-05-10      00:00   01:00   Reservation     battery cable
+2025-05-13      02:00   12:00   Parking         battery cable
+2025-05-14      02:00   14:00   Event           locker  umbrella
+
+Member_F has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+                -End-
+===================================================================
+
+*** Booking - REJECTED / FCFS ***
+
+Member_A has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+
+Member_B has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+
+Member_C has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+
+Member_D has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+
+Member_E has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+
+Member_F has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+                -End-
+===================================================================
+
+-> [Done!]
+Please enter booking:
+printBookings -prio
+*** Booking - ACCEPT / PRIO ***
+
+Member_A has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+2025-05-12      11:00   19:00   Event           locker  umbrella
+2025-05-13      04:00   08:00   Reservation     battery cable
+2025-05-16      22:00   25:00   Parking
+
+Member_B has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+2025-05-13      05:00   07:00   Parking
+
+Member_C has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+2025-05-10      10:00   17:00   Parking
+2025-05-11      18:00   27:00   Parking
+2025-05-13      07:00   13:00   Reservation     battery cable
+2025-05-15      17:00   24:00   Reservation     locker  umbrella
+
+Member_D has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+2025-05-10      20:00   27:00   Event           locker  umbrella
+2025-05-11      07:00   16:00   Reservation     battery cable
+2025-05-16      19:00   24:00   Reservation     battery cable
+
+Member_E has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+2025-05-10      00:00   01:00   Reservation     battery cable
+2025-05-13      02:00   12:00   Parking         battery cable
+2025-05-14      02:00   14:00   Event           locker  umbrella
+
+Member_F has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+                -End-
+===================================================================
+
+*** Booking - REJECTED / PRIO ***
+
+Member_A has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+
+Member_B has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+
+Member_C has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+
+Member_D has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+
+Member_E has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+
+Member_F has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+                -End-
+===================================================================
+
+-> [Done!]
+Please enter booking:
+printBookings -opti
+*** Booking - ACCEPT / OPTI ***
+
+Member_A has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+2025-05-12      11:00   19:00   Event           locker  umbrella
+2025-05-13      04:00   08:00   Reservation     battery cable
+2025-05-16      22:00   25:00   Parking
+
+Member_B has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+2025-05-13      05:00   07:00   Parking
+
+Member_C has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+2025-05-10      10:00   17:00   Parking
+2025-05-11      18:00   27:00   Parking
+2025-05-13      07:00   13:00   Reservation     battery cable
+2025-05-15      17:00   24:00   Reservation     locker  umbrella
+
+Member_D has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+2025-05-10      20:00   27:00   Event           locker  umbrella
+2025-05-11      07:00   16:00   Reservation     battery cable
+2025-05-16      19:00   24:00   Reservation     battery cable
+
+Member_E has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+2025-05-10      00:00   01:00   Reservation     battery cable
+2025-05-13      02:00   12:00   Parking         battery cable
+2025-05-14      02:00   14:00   Event           locker  umbrella
+
+Member_F has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+                -End-
+===================================================================
+
+*** Booking - REJECTED / OPTI ***
+
+Member_A has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+
+Member_B has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+
+Member_C has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+
+Member_D has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+
+Member_E has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+
+Member_F has the following bookings:
+
+Date            Start   End     Type            Device
+===================================================================
+                -End-
+===================================================================
+
+-> [Done!]
+
+
+*** Booking Manager - Summary Report ***
+
+Performance:
+
+ For FCFS:
+        Total Number of Bookings Received: 515
+              Number of Bookings Assigned: 159 (~30.87%)
+              Number of Bookings Rejected: 356 (~69.13%)
+
+        Utilization of Time Slot:
+        lockers                 - 2.73%
+        umbrellas               - 2.82%
+        batteries               - 4.03%
+        cables                  - 3.76%
+        valet parkings          - 1.61%
+        inflation services      - 3.54%
+
+ For PRIO:
+        Total Number of Bookings Received: 515
+              Number of Bookings Assigned: 146 (~28.35%)
+              Number of Bookings Rejected: 369 (~71.65%)
+
+        Utilization of Time Slot:
+        lockers                 - 1.88%
+        umbrellas               - 2.51%
+        batteries               - 1.75%
+        cables                  - 1.57%
+        valet parkings          - 1.52%
+        inflation services      - 3.63%
+
+ For OPTI:
+        Total Number of Bookings Received: 515
+              Number of Bookings Assigned: 185 (~35.92%)
+              Number of Bookings Rejected: 330 (~64.08%)
+
+        Utilization of Time Slot:
+        lockers                 - 0.36%
+        umbrellas               - 0.22%
+        batteries               - 0.45%
+        cables                  - 0.81%
+        valet parkings          - 0.54%
+        inflation services      - 0.99%
+
+Report saved to SPMS_Report_G09.txt
+-> [Done!]
+Please enter booking:
+endProgram
+-> Bye!
