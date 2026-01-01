@@ -1,0 +1,40 @@
+Performance:
+
+ For FCFS:
+        Total Number of Bookings Received: 277
+              Number of Bookings Assigned: 150 (~54.15%)
+              Number of Bookings Rejected: 127 (~45.85%)
+
+        Utilization of Time Slot:
+        lockers                 - 3.49%
+        umbrellas               - 3.49%
+        batteries               - 9.18%
+        cables                  - 5.56%
+        valet parkings          - 2.51%
+        inflation services      - 2.51%
+
+ For PRIO:
+        Total Number of Bookings Received: 277
+              Number of Bookings Assigned: 167 (~60.29%)
+              Number of Bookings Rejected: 110 (~39.71%)
+
+        Utilization of Time Slot:
+        lockers                 - 2.69%
+        umbrellas               - 2.69%
+        batteries               - 8.65%
+        cables                  - 4.44%
+        valet parkings          - 4.35%
+        inflation services      - 4.35%
+
+ For OPTI:
+        Total Number of Bookings Received: 277
+              Number of Bookings Assigned: 167 (~60.29%)
+              Number of Bookings Rejected: 110 (~39.71%)
+
+        Utilization of Time Slot:
+        lockers                 - 3.63%
+        umbrellas               - 3.63%
+        batteries               - 8.38%
+        cables                  - 4.30%
+        valet parkings          - 3.09%
+        inflation services      - 3.09%
