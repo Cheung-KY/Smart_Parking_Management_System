@@ -1,4 +1,5 @@
 Score: 71/85 (Project Submission 1) + 9/15 (Project Submission 2) = 80/100
+
 To compile the project, please ensure that the gcc or cc compiler is configured to support the C99 standard. Start the program by typing “./SPMS” and a welcome message will be shown on the screen. If you wish to import a batch file for one or more requests, please upload the file as a plain text document (.dat) to apollo in the same directory.
 
 Note that for the booking requests in addBatch, there should not be a hyphen "-" before member_X, a space " " instead of semicolon ";" to end each booking request.
